@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>QYVERON</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- QYVERON HEADER -->
+
+    <header class="site-header">
+
+        <div class="logo">
+            QYVERON
+        </div>
+
+
+        <nav class="main-navigation">
+
+            <a
+                href="#"
+                class="nav-link active"
+            >
+                Home
+            </a>
+
+            <a
+                href="#"
+                class="nav-link"
+            >
+                Watch
+            </a>
+
+            <a
+                href="#"
+                class="nav-link"
+            >
+                Read
+            </a>
+
+            <a
+                href="#"
+                class="nav-link"
+            >
+                Games
+            </a>
+
+            <a
+                href="#"
+                class="nav-link"
+            >
+                Sports
+            </a>
+
+            <a
+                href="#"
+                class="nav-link"
+            >
+                Music
+            </a>
+
+            <a
+                href="#"
+                class="nav-link"
+            >
+                Other
+            </a>
+
+        </nav>
+
+
+        <div class="header-actions">
+
+            <button
+                class="icon-button"
+                aria-label="Search"
+            >
+                ⌕
+            </button>
+
+            <button
+                class="icon-button"
+                aria-label="Profile"
+            >
+                ◯
+            </button>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- MAIN CONTENT -->
+
+    <main>
+
+
+        <!-- HERO -->
+
+        <section class="hero-section">
+
+            <p class="hero-label">
+                YOUR ENTERTAINMENT UNIVERSE
+            </p>
+
+
+            <h1>
+                QYVERON
+            </h1>
+
+
+            <p class="hero-description">
+
+                Discover anime, series, movies, manga,
+                games, sports, music and more.
+
+            </p>
+
+
+            <!-- GLOBAL SEARCH -->
+
+            <div class="search-container">
+
+                <span class="search-icon">
+                    ⌕
+                </span>
+
+
+                <input
+                    type="search"
+                    id="globalSearch"
+                    placeholder="Search everything..."
+                    autocomplete="off"
+                >
+
+            </div>
+
+        </section>
+
+
+
+        <!-- SEARCH RESULTS -->
+
+        <section
+            class="content-section"
+            id="searchResultsSection"
+        >
+
+            <div class="section-heading">
+
+                <div>
+
+                    <span class="section-label">
+                        SEARCH
+                    </span>
+
+                    <h2>
+                        Search Results
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div
+                class="cards-container"
+                id="searchResultsList"
+            >
+
+            </div>
+
+        </section>
+
+
+
+        <!-- CONTENT CATEGORIES -->
+
+        <section class="categories-section">
+
+
+            <button
+                class="category-card"
+                data-category="watch"
+            >
+
+                <span class="category-icon">
+                    ▶
+                </span>
+
+                <span class="category-name">
+                    Watch
+                </span>
+
+                <span class="category-description">
+                    Anime, Series, Movies
+                </span>
+
+            </button>
+
+
+
+            <button
+                class="category-card"
+                data-category="read"
+            >
+
+                <span class="category-icon">
+                    ▤
+                </span>
+
+                <span class="category-name">
+                    Read
+                </span>
+
+                <span class="category-description">
+                    Manga, Manhwa, Comics
+                </span>
+
+            </button>
+
+
+
+            <button
+                class="category-card"
+                data-category="games"
+            >
+
+                <span class="category-icon">
+                    ⌘
+                </span>
+
+                <span class="category-name">
+                    Games
+                </span>
+
+                <span class="category-description">
+                    PC, Console, Mobile
+                </span>
+
+            </button>
+
+
+
+            <button
+                class="category-card"
+                data-category="sports"
+            >
+
+                <span class="category-icon">
+                    ◇
+                </span>
+
+                <span class="category-name">
+                    Sports
+                </span>
+
+                <span class="category-description">
+                    Football, F1, UFC
+                </span>
+
+            </button>
+
+
+
+            <button
+                class="category-card"
+                data-category="music"
+            >
+
+                <span class="category-icon">
+                    ♫
+                </span>
+
+                <span class="category-name">
+                    Music
+                </span>
+
+                <span class="category-description">
+                    Songs, Albums, Artists
+                </span>
+
+            </button>
+
+
+
+            <button
+                class="category-card"
+                data-category="other"
+            >
+
+                <span class="category-icon">
+                    ✦
+                </span>
+
+                <span class="category-name">
+                    Other
+                </span>
+
+                <span class="category-description">
+                    Podcasts, Theater, Events
+                </span>
+
+            </button>
+
+
+        </section>
+
+
+
+        <!-- TRENDING -->
+
+        <section class="content-section">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <span class="section-label">
+                        DISCOVER
+                    </span>
+
+                    <h2>
+                        Trending
+                    </h2>
+
+                </div>
+
+
+                <button class="view-all-button">
+                    View All
+                </button>
+
+            </div>
+
+
+            <div
+                class="cards-container"
+                id="trendingList"
+            >
+
+                <!-- Cards will be added with JavaScript -->
+
+            </div>
+
+        </section>
+
+
+
+        <!-- POPULAR -->
+
+        <section class="content-section">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <span class="section-label">
+                        POPULAR
+                    </span>
+
+                    <h2>
+                        Popular
+                    </h2>
+
+                </div>
+
+
+                <button class="view-all-button">
+                    View All
+                </button>
+
+            </div>
+
+
+            <div
+                class="cards-container"
+                id="popularList"
+            >
+
+                <!-- Cards will be added with JavaScript -->
+
+            </div>
+
+        </section>
+
+
+
+        <!-- TOP RATED -->
+
+        <section class="content-section">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <span class="section-label">
+                        COMMUNITY
+                    </span>
+
+                    <h2>
+                        Top Rated
+                    </h2>
+
+                </div>
+
+
+                <button class="view-all-button">
+                    View All
+                </button>
+
+            </div>
+
+
+            <div
+                class="cards-container"
+                id="topRatedList"
+            >
+
+                <!-- Cards will be added with JavaScript -->
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- FOOTER -->
+
+    <footer class="site-footer">
+
+        <div class="footer-logo">
+            QYVERON
+        </div>
+
+
+        <p>
+            Your Entertainment Universe
+        </p>
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
