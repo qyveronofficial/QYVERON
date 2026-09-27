@@ -386,18 +386,17 @@ const qyveronContent = [
         title: "Attack on Titan",
         type: "Anime",
         rating: 9.1,
-        image: "images/episodes/aot-s1-e1.jpg"
+        image: "https://cdn.myanimelist.net/images/anime/10/47347.jpg"
     },
 
     {
         title: "Bleach",
         type: "Anime",
         rating: 8.2,
-        image: "images/episodes/aot-s1-e2.jpg"
+        image: "https://cdn.myanimelist.net/images/anime/3/40451.jpg"
     }
 
 ];
-
 
 // =====================================
 // CREATE CARD
